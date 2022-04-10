@@ -28,7 +28,7 @@ void queimada(vector<string>& mapa, int linhaPos, int colunaPos){
     queimada(mapa, linhaPos, colunaPos + 1);
     queimada(mapa, linhaPos + 1, colunaPos);
 
-    mapa [linhaPos] [colunaPos] = '*';
+    mapa [linhaPos] [colunaPos] = 'o';
     mostrar(mapa);
 }
 
